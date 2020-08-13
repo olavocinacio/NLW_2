@@ -1,9 +1,10 @@
 //Sempre deve ser importada, mesmo se não utilizada
 import React from 'react';
-//Importando landing page
-import Landing from './pages/landing/index';
+//Importando Rotas
+import Routes from './routes';
 //Importando CSS
 import "./assets/Styles/global.css";
+
 
 
 //Metodologia "Mobile First"
@@ -16,7 +17,7 @@ import "./assets/Styles/global.css";
 //O nome dos componentes deve sempre iniciar com maiúscula
 function App() {
   return (
-    <Landing />
+    <Routes />
   );
 }
 

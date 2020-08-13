@@ -43,6 +43,7 @@ body{
 
 body, input, button, textarea{
     font: 500 1.6rem Poppins; /*font-weight, font-size, font-face;*/
+    color: var(--color-text-base);
 } /*rem -> 1.6 * tamanho do elemento(nesse caso, 60% do padrão(16px)) -> utilizado para auxiliar na responsividade*/
 
 .container{
